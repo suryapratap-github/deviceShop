@@ -1,0 +1,53 @@
+﻿.loginSection {
+    padding-top: 4.2rem;
+    padding-bottom: 4.2rem;
+    background-image: url('../assets/loginBg.jpg');
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.loginSection:before {
+    content: '';
+    top: 0;
+    bottom: 0;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.73);
+    width: 100%;
+    left: 0;
+}
+
+.textUnderline {
+    text-decoration: none !important;
+}
+
+h1, h2, h3 {
+    font-family: 'Kaushan Script', cursive;
+}
+
+.myform {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 1rem;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 1.1rem;
+    outline: 0;
+    max-width: 500px;
+}
+
+.mybtn {
+    border-radius: 10px;
+    height: 45px;
+    font-size: larger;
+}
+
+form .error {
+    color: #ff0000;
+}
+
